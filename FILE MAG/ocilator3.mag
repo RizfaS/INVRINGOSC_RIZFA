@@ -1,0 +1,71 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729054718
+<< viali >>
+rect -72 1074 88 1110
+rect 622 1074 782 1110
+rect 1314 1074 1474 1110
+rect -72 38 86 72
+rect 622 38 780 72
+rect 1314 38 1472 72
+<< metal1 >>
+rect -70 1202 1472 1236
+rect -70 1116 86 1202
+rect 624 1116 780 1202
+rect 1316 1116 1472 1202
+rect -84 1110 100 1116
+rect -84 1074 -72 1110
+rect 88 1074 100 1110
+rect -84 1068 100 1074
+rect 610 1110 794 1116
+rect 610 1074 622 1110
+rect 782 1074 794 1110
+rect 610 1068 794 1074
+rect 1302 1110 1486 1116
+rect 1302 1074 1314 1110
+rect 1474 1074 1486 1110
+rect 1302 1068 1486 1074
+rect -318 548 26 588
+rect -318 -138 -278 548
+rect 103 546 720 586
+rect 797 546 1410 586
+rect 1489 546 1792 586
+rect -84 72 98 78
+rect -84 38 -72 72
+rect 86 38 98 72
+rect -84 32 98 38
+rect 610 72 792 78
+rect 610 38 622 72
+rect 780 38 792 72
+rect 610 32 792 38
+rect 1302 72 1484 78
+rect 1302 38 1314 72
+rect 1472 38 1484 72
+rect 1302 32 1484 38
+rect -72 -50 86 32
+rect 622 -50 780 32
+rect 1314 -50 1472 32
+rect -72 -92 1472 -50
+rect 1752 -138 1792 546
+rect -318 -178 1792 -138
+use msib15okt24inv  x1
+timestamp 1729052310
+transform 1 0 -149 0 1 -5
+box -55 7 368 1150
+use msib15okt24inv  x2
+timestamp 1729052310
+transform 1 0 545 0 1 -5
+box -55 7 368 1150
+use msib15okt24inv  x3
+timestamp 1729052310
+transform 1 0 1237 0 1 -5
+box -55 7 368 1150
+<< labels >>
+flabel metal1 704 1220 704 1220 0 FreeSans 160 0 0 0 vdd
+port 0 nsew
+flabel metal1 1696 564 1696 564 0 FreeSans 160 0 0 0 out
+port 1 nsew
+flabel metal1 700 -72 700 -72 0 FreeSans 160 0 0 0 gnd
+port 2 nsew
+<< end >>
