@@ -1,25 +1,26 @@
 # INVRINGOSC_RIZFA
-Tugas URL desain skematik dan layout inverter amp ring oscillator
+Tugas URL desain skematik dan layout Inverter, Ring Oscillator, dan OPAMP
 
 
+Dokumentasi     : Berisi file file dokumentasi
 
-Inverter : Berisi file file Inverter
+Inverter        : Berisi file file Inverter
 "
-/MAG  : Berisi file layout untuk Magic
+/MAG    : Berisi file layout untuk Magic
 
-/SCH  : Berisi file skematik untuk xschem
-"
-
-Ocilator : Berisi file file Ocilator
-"
-/MAG  : Berisi file layout untuk Magic
-
-/SCH  : Berisi file skematik untuk xschem
+/SCH    : Berisi file skematik untuk xschem
 "
 
-OPAMP : Berisi file file OPAMP
+Ocilator        : Berisi file file Ocilator
 "
-/Combined  : Berisi rangkaian yang sudah siap untuk di tes lvs
+/MAG     : Berisi file layout untuk Magic
+
+/SCH     : Berisi file skematik untuk xschem
+"
+
+OPAMP            : Berisi file file OPAMP
+"
+/Combined    : Berisi rangkaian yang sudah siap untuk di tes lvs
 
 /MAG  : Berisi file layout untuk Magic
     /Combined  : Berisi file gabungan dari Mag untuk 1 opamp
