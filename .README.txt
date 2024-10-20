@@ -1,0 +1,43 @@
+# INVRINGOSC_RIZFA
+Tugas URL desain skematik dan layout inverter amp ring oscillator
+
+
+
+Inverter : Berisi file file Inverter
+"
+/MAG  : Berisi file layout untuk Magic
+
+/SCH  : Berisi file skematik untuk xschem
+"
+
+Ocilator : Berisi file file Ocilator
+"
+/MAG  : Berisi file layout untuk Magic
+
+/SCH  : Berisi file skematik untuk xschem
+"
+
+OPAMP : Berisi file file OPAMP
+"
+/Combined  : Berisi rangkaian yang sudah siap untuk di tes lvs
+
+/MAG  : Berisi file layout untuk Magic
+    /Combined  : Berisi file gabungan dari Mag untuk 1 opamp
+    /Grouping  : Berisi file masing masing pengelompokkan untuk pengerjaan common centroid
+        /Kelompok 1  : M1, M2, dan M5
+        /Kelompok 2  : M3 dan M4
+        /Kelompok 3  : M6 dan M7
+        /Kelompok 4  : M8 dan M9
+
+/SCH  : Berisi file skematik untuk xschem
+    /Component       : Berisi file skematik komponen dasar
+    /Combined SYM    : Berisi file skematik gabungan dari Grouping
+    /Grouping        : Berisi file grouping berdasarkan jenis dan ukuran
+        /Kelompok 1  : M1, M2, dan M5
+        /Kelompok 2  : M3 dan M4
+        /Kelompok 3  : M6 dan M7
+        /Kelompok 4  : M8 dan M9
+"
+
+
+Dokumentasi : Dokumentasi progres dan hasil
